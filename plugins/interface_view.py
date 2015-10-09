@@ -381,7 +381,7 @@ class _SectionAccessible(_InterfaceSection):
     self.states_model.clear()
     self.attr_model.clear()
 
-  def _relationSelectFunc(self, path):
+  def _relationSelectFunc(self, selection, model, path, selected, data):
     '''
     Make relation-type headers unselectable.
     
